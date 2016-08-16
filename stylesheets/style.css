@@ -43,14 +43,17 @@
     
     .chicken-heading {
         background-color: #DDA0DD;
+        border: 1px black;
     }
     
     .beef-heading {
         background-color: #98FB98;
+        border: 1px black;
     }
     
     .sushi-heading {
         background-color: #D2691E;
+        border: 1px black;
     }
     
     .grid {
@@ -72,18 +75,18 @@
     }
     
     #chicken {
-        background: #696969;
-        border: 2px solid #DDA0DD;
+        background: #FF4500;
+        border: 1px solid black;
     }
     
     #beef {
         background: #696969;
-        border: 2px solid #98FB98;
+        border: 1px solid black;
     }
     
     #sushi {
-        background: #696969;
-        border: 2px solid #D2691E;
+        background: #9ACD32;
+        border: 1px solid black;
     }
     
     .col:last-child {
@@ -119,7 +122,7 @@
     }
     /*--Phones--*/
     
-    @media (min-width: 220px) and (max-width: 767px) {
+    @media (max-width: 767px) {
         .col {
             width: 100%;
         }
