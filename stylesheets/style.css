@@ -31,6 +31,8 @@
         font-size: 1.5em;
         max-width: 150px;
         text-align: center;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
     }
     
     p {
@@ -60,7 +62,7 @@
     }
     
     #chicken {
-        background: #FFA07A;
+        background: #FF6347;
         border: 1px solid black;
     }
     
@@ -76,17 +78,14 @@
     
     .chicken-heading {
         background-color: #DDA0DD;
-        border: 1px solid black;
     }
     
     .beef-heading {
         background-color: #98FB98;
-        border: 1px solid black;
     }
     
     .sushi-heading {
         background-color: #D2691E;
-        border: 1px solid black;
     }
     
     .col:last-child {
