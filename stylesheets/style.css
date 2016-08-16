@@ -60,7 +60,7 @@
     }
     
     #chicken {
-        background: #FF4500;
+        background: #FFA07A;
         border: 1px solid black;
     }
     
@@ -76,17 +76,17 @@
     
     .chicken-heading {
         background-color: #DDA0DD;
-        border: 1px black;
+        border: 1px solid black;
     }
     
     .beef-heading {
         background-color: #98FB98;
-        border: 1px black;
+        border: 1px solid black;
     }
     
     .sushi-heading {
         background-color: #D2691E;
-        border: 1px black;
+        border: 1px solid black;
     }
     
     .col:last-child {
