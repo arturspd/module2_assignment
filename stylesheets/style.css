@@ -1,0 +1,126 @@
+    /*--Base styles--*/
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #F0F8FF;
+    }
+    
+    h1, h2 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: lighter;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 20px 0 10px 0;
+    }
+    
+    h2 {
+        padding: 8px;
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        right: 0%;
+        clear: right;
+        font-size: 1.5em;
+        max-width: 150px;
+        text-align: center;
+    }
+    
+    p {
+        font-family: 'Raleway', sans-serif;
+        padding: 45px 20px 5px 20px;
+        display: block;
+        color: #F0F8FF;
+        text-align: justify;
+    }
+    
+    .chicken-heading {
+        background-color: #DDA0DD;
+    }
+    
+    .beef-heading {
+        background-color: #98FB98;
+    }
+    
+    .sushi-heading {
+        background-color: #D2691E;
+    }
+    
+    .grid {
+        max-width: 1200px;
+        overflow: hidden;
+        margin: auto;
+        padding: 0 10px;
+        clear: both;
+    }
+    
+    .col {
+        background: #ccc;
+        border: 2px solid #9E3A52;
+        float: left;
+        padding: 0;
+        position: relative;
+        width: 32%;
+        margin: 2% 2% 2% 0;
+    }
+    
+    #chicken {
+        background: #696969;
+        border: 2px solid #DDA0DD;
+    }
+    
+    #beef {
+        background: #696969;
+        border: 2px solid #98FB98;
+    }
+    
+    #sushi {
+        background: #696969;
+        border: 2px solid #D2691E;
+    }
+    
+    .col:last-child {
+        margin-right: 0;
+    }
+
+    /*----Simple Responsive Framework----*/
+    /*--Normal screens--*/
+    
+    @media (min-width: 992px) {
+        .col {
+            min-height: 225px;
+        }
+    }
+    /*--Tablets--*/
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        .col {
+            width: 49%;
+        }
+        #chicken {
+            min-height: 230px;
+        }
+        #beef {
+            float: right;
+            margin-right: 0;
+            min-height: 230px;
+        }
+        #sushi {
+            margin-top: 0;
+            width: 100%;
+        }
+    }
+    /*--Phones--*/
+    
+    @media (min-width: 220px) and (max-width: 767px) {
+        .col {
+            width: 100%;
+        }
+    }
