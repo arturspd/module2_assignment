@@ -41,21 +41,6 @@
         text-align: justify;
     }
     
-    .chicken-heading {
-        background-color: #DDA0DD;
-        border: 1px black;
-    }
-    
-    .beef-heading {
-        background-color: #98FB98;
-        border: 1px black;
-    }
-    
-    .sushi-heading {
-        background-color: #D2691E;
-        border: 1px black;
-    }
-    
     .grid {
         max-width: 1200px;
         overflow: hidden;
@@ -87,6 +72,21 @@
     #sushi {
         background: #9ACD32;
         border: 1px solid black;
+    }
+    
+    .chicken-heading {
+        background-color: #DDA0DD;
+        border: 1px black;
+    }
+    
+    .beef-heading {
+        background-color: #98FB98;
+        border: 1px black;
+    }
+    
+    .sushi-heading {
+        background-color: #D2691E;
+        border: 1px black;
     }
     
     .col:last-child {
