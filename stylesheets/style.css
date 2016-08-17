@@ -46,9 +46,10 @@
     }
     
     .grid {
+        width: 100$;
         max-width: 1200px;
         overflow: hidden;
-        margin: auto;
+        margin: 0 auto;
         padding: 0 10px;
         clear: both;
     }
