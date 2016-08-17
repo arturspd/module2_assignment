@@ -44,6 +44,7 @@
     }
     
     .grid {
+        width: 100%;
         max-width: 1200px;
         overflow: hidden;
         margin: auto;
@@ -62,7 +63,7 @@
     }
     
     #chicken {
-        background: #FF6347;
+        background: #696969;
         border: 1px solid black;
     }
     
@@ -72,7 +73,7 @@
     }
     
     #sushi {
-        background: #9ACD32;
+        background: #696969;
         border: 1px solid black;
     }
     
