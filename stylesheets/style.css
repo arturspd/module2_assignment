@@ -43,8 +43,11 @@
         text-align: justify;
     }
     
-    .grid {
+    container {
         width: 100%;
+    }
+    
+    .grid {
         max-width: 1200px;
         overflow: hidden;
         margin: auto;
