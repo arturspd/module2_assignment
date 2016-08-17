@@ -58,7 +58,7 @@
         float: left;
         padding: 0;
         position: relative;
-        width: 100%;
+        width: 32%;
         margin: 2% 2% 2% 0;
     }
     
@@ -99,6 +99,7 @@
     @media (min-width: 992px) {
         .col {
             min-height: 225px;
+            width: 100%;
         }
     }
     /*--Tablets--*/
