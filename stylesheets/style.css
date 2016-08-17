@@ -99,7 +99,6 @@
     @media (min-width: 992px) {
         .col {
             min-height: 225px;
-            width: 100%;
         }
     }
     /*--Tablets--*/
